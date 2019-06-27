@@ -1,0 +1,17 @@
+<?php
+
+/**
+ * @file
+ */
+
+/**
+ * Hook_theme()
+ */
+function weatherapp_theme() {
+  return [
+    'weather_app_block' => [
+      'variables' => ['title' => NULL, 'description' => NULL, 'data' => NULL, 'url' => NULL],
+      'template' => 'block-custom',
+    ],
+  ];
+}
